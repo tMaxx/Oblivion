@@ -15,3 +15,5 @@ Mac OSX
 	cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
 	git clone https://github.com/hussani/Oblivion.git
 	
+The .tmTheme file was originally created by Paolo Borelli
+	
