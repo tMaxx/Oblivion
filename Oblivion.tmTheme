@@ -74,7 +74,8 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#75715E</string>
+				<!--string>#999990</string-->
+				<string>#B0B0B0</string>
 			</dict>
 		</dict>
 		<dict>
