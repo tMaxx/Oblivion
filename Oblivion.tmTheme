@@ -51,7 +51,7 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2E3436</string>
+				<string>#303030</string>
 				<key>caret</key>
 				<string>#D3D7CF</string>
 				<key>foreground</key>
