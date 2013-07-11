@@ -5,6 +5,8 @@ A Sublime Text Color Scheme based on Oblivion theme of Gedit in Ubuntu 11.10.
 
 Slightly modified version: darker background, brighter comments. For readability.
 
+There is no "Soda Dark" variant here - personally, I just don't use it.
+
 ## Instalation ##
 
 Linux
