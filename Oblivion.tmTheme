@@ -262,9 +262,42 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#F92672</string>
-			</dict>
-		</dict>
+                <string>#FF5235</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>HTML/CSS Element</string>
+            <key>scope</key>
+            <string>keyword.control.html.elements</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5235</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>LESS Mixin (function)</string>
+            <key>scope</key>
+            <string>entity.other.less.mixin</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6290C5</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>LESS Variable declaration</string>
+            <key>scope</key>
+            <string>variable.declaration.less</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6290C5</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
 			<string>Tag attribute</string>
