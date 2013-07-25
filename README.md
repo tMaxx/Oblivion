@@ -15,15 +15,15 @@ Changelog:
 ## Installation
 
 *Different version of this theme is available through Package Control (see https://github.com/hussani/Oblivion). You may want to stick to that one.*
+
 Another version is provided by jbrooksuk - see https://github.com/jbrooksuk/Oblivion for instructions.
 
 If you're still eager to try my particular version type this in console:
-
 ### Linux
 
 	cd ~/.config/sublime-text-2/Packages
 	git clone https://github.com/tMaxx/Oblivion.git
 
 
-<small>Forked from repository of the same name created by [hussani](https://github.com/hussani/).
-The .tmTheme file was originally created by Paolo Borelli</small>
+Forked from repository of the same name created by [hussani](https://github.com/hussani/).
+The .tmTheme file was originally created by Paolo Borelli
