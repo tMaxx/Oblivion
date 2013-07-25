@@ -3,18 +3,27 @@ Oblivion
 
 A Sublime Text Color Scheme based on Oblivion theme of Gedit in Ubuntu 11.10.
 
-Slightly modified version: different background, brighter comments. For readability. And because I like it better.
-There is no "Soda Dark" variant here - I just don't use it.
+For "Soda Dark" variant of this scheme head down to section *Installation*.
 
 Changelog:
-- Modify CSS tag color, pink is overrated
+- Tweaks for function names and variables (more balanced colors)
+- Some colors & appearance rolled back to originals
+- Change CSS tag color, pink is overrated
 - Add support for LESS stylesheet language (for use with LESS-sublime plugin)
 - Small sync w/ upstream
 
-## Instalation ##
+## Installation
 
-For detailed instructions see https://github.com/jbrooksuk/Oblivion
+*Different version of this theme is available through Package Control (see https://github.com/hussani/Oblivion). You may want to stick to that one.*
+Another version is provided by jbrooksuk - see https://github.com/jbrooksuk/Oblivion for instructions.
+
+If you're still eager to try my particular version type this in console:
+
+### Linux
+
+	cd ~/.config/sublime-text-2/Packages
+	git clone https://github.com/tMaxx/Oblivion.git
 
 
-Forked from repository of the same name created by hussani@github.
-The .tmTheme file was originally created by Paolo Borelli
+<small>Forked from repository of the same name created by [hussani](https://github.com/hussani/).
+The .tmTheme file was originally created by Paolo Borelli</small>
