@@ -11,33 +11,15 @@ using the Tango color palette
 
   Tango Palette
 
-  <color name="butter1"                     value="#fce94f"/>
-  <color name="butter2"                     value="#edd400"/>
-  <color name="butter3"                     value="#c4a000"/>
-  <color name="chameleon1"                  value="#8ae234"/>
-  <color name="chameleon2"                  value="#73d216"/>
-  <color name="chameleon3"                  value="#4e9a06"/>
-  <color name="orange1"                     value="#fcaf3e"/>
-  <color name="orange2"                     value="#f57900"/>
-  <color name="orange3"                     value="#ce5c00"/>
-  <color name="skyblue1"                    value="#729fcf"/>
-  <color name="skyblue2"                    value="#3465a4"/>
-  <color name="skyblue3"                    value="#204a87"/>
-  <color name="plum1"                       value="#ad7fa8"/>
-  <color name="plum2"                       value="#75507b"/>
-  <color name="plum3"                       value="#5c3566"/>
-  <color name="chocolate1"                  value="#e9b96e"/>
-  <color name="chocolate2"                  value="#c17d11"/>
-  <color name="chocolate3"                  value="#8f5902"/>
-  <color name="scarletred1"                 value="#ef2929"/>
-  <color name="scarletred2"                 value="#cc0000"/>
-  <color name="scarletred3"                 value="#a40000"/>
-  <color name="aluminium1"                  value="#eeeeec"/>
-  <color name="aluminium2"                  value="#d3d7cf"/>
-  <color name="aluminium3"                  value="#babdb6"/>
-  <color name="aluminium4"                  value="#888a85"/>
-  <color name="aluminium5"                  value="#555753"/>
-  <color name="aluminium6"                  value="#2e3436"/>
+  butter:       #fce94f   #edd400   #c4a000
+  chameleon:    #8ae234   #73d216   #4e9a06
+  orange:       #fcaf3e   #f57900   #ce5c00
+  skyblue:      #729fcf   #3465a4   #204a87
+  plum:         #ad7fa8   #75507b   #5c3566
+  chocolate:    #e9b96e   #c17d11   #8f5902
+  scarletred:   #ef2929   #cc0000   #a40000
+  aluminium:    #eeeeec   #d3d7cf   #babdb6
+                #888a85   #555753   #2e3436
 
 -->
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -56,7 +38,7 @@ using the Tango color palette
 				<key>caret</key>
 				<string>#D3D7CF</string>
 				<key>foreground</key>
-				<string>#E3E7DF</string>
+				<string>#D5D9D1</string>
 				<key>invisibles</key>
 				<string>#3B3A32</string>
 				<key>lineHighlight</key>
@@ -76,8 +58,7 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<!--string>#999990</string-->
-				<string>#AAACA7</string> <!-- base plus #222 -->
+				<string>#AAACA7</string> <!-- base plus #222; previous:#999990 -->
 			</dict>
 		</dict>
 		<dict>
@@ -151,8 +132,7 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#EEEEEC</string>
-				<!-- <string>#AFDFFF</string> previously #FFFFFF -->
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -165,7 +145,7 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#EEEEEC</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -228,9 +208,9 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
-				<string>#EEEEEC</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -354,7 +334,7 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#88CCDF</string>
 			</dict>
@@ -662,7 +642,7 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#eee8d5</string>
+				<string>#444642</string><!-- base-#111; prev:#eee8d5 -->
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
