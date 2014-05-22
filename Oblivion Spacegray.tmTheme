@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-
 Customized by: Heinrich <hnrrrch@gmail.com>
 Further customized by: James Brooks <ukjbrooks@gmail.com>
 Even further customized by: Hussani Oliveira <contato@hussani.com.br> and Nicolas (tMaxx)
@@ -10,7 +9,6 @@ This theme is based on Oblivion theme for Gedit
 using the Tango color palette
 
   Tango Palette
-
   butter:       #fce94f   #edd400   #c4a000
   chameleon:    #8ae234   #73d216   #4e9a06
   orange:       #fcaf3e   #f57900   #ce5c00
@@ -20,7 +18,6 @@ using the Tango color palette
   scarletred:   #ef2929   #cc0000   #a40000
   aluminium:    #eeeeec   #d3d7cf   #babdb6
                 #888a85   #555753   #2e3436
-
 -->
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -33,18 +30,20 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<!-- <string>#191C20</string> -->
-				<string>#161C1E</string>
+				<!-- #191C20; #161C1E -->
+				<string>#0F1114</string>
 				<key>caret</key>
 				<string>#D3D7CF</string>
 				<key>foreground</key>
-				<string>#D5D9D1</string>
+				<string>#D1D5CE</string>
 				<key>invisibles</key>
 				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#3A3E40</string>
+				<string>#343D46</string>
 				<key>selection</key>
-				<string>#555753</string>
+				<string>#000000</string> <!-- #555753 -->
+				<key>gutterForeground</key>
+				<string>#64738A</string> <!-- Line numbers -->
 			</dict>
 		</dict>
 		<dict>
@@ -53,12 +52,11 @@ using the Tango color palette
 			<key>scope</key>
 			<string>comment</string>
 			<key>settings</key>
-
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#AAACA7</string> <!-- base plus #222; previous:#999990 -->
+				<string>#A0A1A0</string> <!-- alum_no4 + #222; previous:#999990 -->
 			</dict>
 		</dict>
 		<dict>
@@ -69,31 +67,42 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDD400</string>
+				<string>#559fdc<!-- EDD400 --></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Square braces</string>
+			<key>scope</key>
+			<string>meta.brace, meta.brace.square</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Number</string>
 			<key>scope</key>
-			<string>constant.numeric</string>
+			<string>constant.numeric, constant.other.color.rgb-value</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F57900</string>
+				<string>#4FCC00<!--#49BC00<!-- F57900 --></string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
 			<key>scope</key>
-			<string>constant.language</string>
+			<string>constant.language, constant.character.entity.html, text.todotxt constant.other.priority</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#fce94f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -103,10 +112,10 @@ using the Tango color palette
 			<string>constant.character, constant.other</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
+				<!-- <key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#204a87</string> --><!-- 5D97D9, f57900, #89A2BD -->
 			</dict>
 		</dict>
 		<dict>
@@ -117,7 +126,7 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6290C5</string>
+				<string>#DDDDDD</string> <!-- #6290C5 -->
 				<key>fontStyle</key>
 				<string></string>
 			</dict>
@@ -155,8 +164,8 @@ using the Tango color palette
 			<string>storage.type</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
+				<!-- <key>fontStyle</key>
+				<string>bold</string> -->
 				<key>foreground</key>
 				<string>#8AE234</string><!-- Greenish -->
 			</dict>
@@ -169,9 +178,9 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic bold</string>
+				<string>italic <!-- bold --></string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#8ae234</string><!-- was: #FFFFFF -->
 			</dict>
 		</dict>
 		<dict>
@@ -195,9 +204,9 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic underline</string>
+				<string></string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#D1D5CE</string> <!-- #A6E22E -->
 			</dict>
 		</dict>
 		<dict>
@@ -239,6 +248,19 @@ using the Tango color palette
 				<string>#729FCF</string>
 			</dict>
 		</dict>
+		<!-- <dict> FIXME
+			<key>name</key>
+			<string>String/HTML</string>
+			<key>scope</key>
+			<string>text.html string.quoted.*.html, text.xml string.quoted</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#fce94f</string>
+			</dict>
+		</dict> -->
 		<dict>
 			<key>name</key>
 			<string>CSS Tag name</string>
@@ -308,7 +330,7 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string><!-- italic --></string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -320,10 +342,10 @@ using the Tango color palette
 			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
+				<!-- <key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#88CCDF</string>
+				<string>#5D97D9</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -336,7 +358,7 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#88CCDF</string>
+				<string>#D1D5CE<!-- 729fcf --></string>
 			</dict>
 		</dict>
 		<dict>
@@ -345,11 +367,11 @@ using the Tango color palette
 			<key>scope</key>
 			<string>support.other.variable</string>
 			<key>settings</key>
-			<dict>
+			<dict><!--
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#6290C5</string>
+				<string>#729fcf</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -382,101 +404,53 @@ using the Tango color palette
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Remark TODO</string>
+			<string>PHP open/close tags</string>
 			<key>scope</key>
-			<string>remark.todo</string>
+			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#FFFFAA</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Remark DONE</string>
+			<string>PHP array index in string</string>
 			<key>scope</key>
-			<string>remark.done</string>
+			<string>text.html.basic source.php.embedded.block.html string.quoted.double.php meta.string-contents.quoted.double.php string.unquoted.index.php, text.html.basic source.php.embedded.block.html string.quoted.double.php meta.string-contents.quoted.double.php punctuation.section.array</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#DDDDDD</string>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Operators</string>
+			<key>scope</key>
+			<string>keyword.operator, keyword.operator.sizeof.c, keyword.operator.cast.c++</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#888a85</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Remark WAIT</string>
+			<string>Operators</string>
 			<key>scope</key>
-			<string>remark.wait</string>
+			<string>storage.modifier.reference</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#CCFFCC</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Remark NOTE</string>
-			<key>scope</key>
-			<string>remark.note</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#AAAAAA</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Remark FIXME</string>
-			<key>scope</key>
-			<string>remark.fixme</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFAAAA</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Remark WARNING</string>
-			<key>scope</key>
-			<string>remark.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF9900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Remark INFO</string>
-			<key>scope</key>
-			<string>remark.info</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFFFAA</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Remark EXCEPTION</string>
-			<key>scope</key>
-			<string>remark.exception</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFAAAA</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Remark ERROR</string>
-			<key>scope</key>
-			<string>remark.error</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF3366</string>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -487,7 +461,7 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#75715E</string>
+				<string>#3465a4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -520,7 +494,20 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#729fcf</string>
+				<string>#fce94f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>DIFF git-specific</string>
+			<key>scope</key>
+			<string>meta.gitdiff</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -531,31 +518,48 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#A57706</string>
+				<string>#343D46</string><!-- prev:#A57706 -->
 				<key>foreground</key>
-				<string>#E0EDDD</string>
+				<string>#2e3436</string><!-- prev:#E0EDDD -->
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Markdown: Raw</string>
 			<key>scope</key>
-			<string>text.html.markdown markup.raw.inline</string>
+			<string>text.html.markdown markup.raw.inline, markup.raw.block.markdown</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#269186</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: Punctuation for Inline Block</string>
+			<string>Markdown: Punctuation for code block</string>
 			<key>scope</key>
-			<string>punctuation.definition.raw.markdown</string>
+			<string>punctuation.definition.raw.markdown, punctuation.definition.fenced.markdown</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#269186</string>
+				<string>#e9b96e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown: Block level</string>
+			<key>scope</key>
+			<string>meta.block-level.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#e9b96e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -568,20 +572,20 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#cb4b16</string>
+				<string>#8ae234</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: Italic</string>
+			<string>Markup: Italic, Strike-through</string>
 			<key>scope</key>
-			<string>markup.italic</string>
+			<string>markup.italic, markup.strikethrough</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#839496</string>
+				<string>#babdb6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -594,7 +598,7 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#babdb6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -605,20 +609,33 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#babdb6</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Markup: Underline</string>
 			<key>scope</key>
-			<string>markup.underline</string>
+			<string>markup.underline, constant.other.reference.link.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>underline</string>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#839496</string>
+				<string>#888a85</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Link/reference</string>
+			<key>scope</key>
+			<string>meta.link.reference.markdown, meta.link.inline.markdown, meta.image.inline.markdown, text.html.markdown meta.link.reference.def.markdown punctuation.separator.key-value.markdown </string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#555753</string>
 			</dict>
 		</dict>
 		<dict>
@@ -629,9 +646,9 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
-				<string>#268bd2</string>
+				<string>#729fcf<!-- #268bd2 --></string>
 			</dict>
 		</dict>
 		<dict>
@@ -642,11 +659,48 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#444642</string><!-- base-#111; prev:#eee8d5 -->
+				<string>#343D46</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#268bd2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown: List</string>
+			<key>scope</key>
+			<string>markup.list</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF<!-- 729fcf --></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown: Link description</string>
+			<key>scope</key>
+			<string>string.other.link.description.markdown, string.other.link.title.markdown, text.html.markdown meta.link.reference.def.markdown constant.other.reference.link.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS: attrib selector</string>
+			<key>scope</key>
+			<string>source.scss entity.other.attribute-selector.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#fce94f</string>
 			</dict>
 		</dict>
 	</array>
