@@ -5,11 +5,11 @@ A Sublime Text Color Scheme based on Oblivion theme of Gedit in Ubuntu 11.10. Cu
 
 This variation is more of a personal version that I use everyday rather than completely aestetically unbiased one. You are, however, free to contribute.
 
-# Installation
+### Installation
 
 Currently, the only option is to clone this repository and to put it in Sublime's Packages folder.
 
-# "Standard" Oblivion
+### "Standard" Oblivion
 
 If you're looking for "standard" Oblivion along with Soda Dark color scheme you should take a look here:
 - https://github.com/jbrooksuk/Oblivion (actively maintained)
