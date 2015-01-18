@@ -96,7 +96,7 @@ using the Tango color palette
 			<key>name</key>
 			<string>Built-in constant</string>
 			<key>scope</key>
-			<string>constant.language, constant.character.entity.html, text.todotxt constant.other.priority</string>
+			<string>constant.language, constant.character.entity.html, text.todotxt constant.other.priority, constant.character.escape</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -138,10 +138,10 @@ using the Tango color palette
 			<string>keyword</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
+				<!-- <key>fontStyle</key>
+				<string>bold</string> -->
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#8AE234<!-- #FFFFFF --></string>
 			</dict>
 		</dict>
 		<dict>
@@ -701,6 +701,19 @@ using the Tango color palette
 				<string></string>
 				<key>foreground</key>
 				<string>#fce94f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>c++ meta preprocessor</string>
+			<key>scope</key>
+			<string>meta.preprocessor, keyword.control.import</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#f57900</string>
 			</dict>
 		</dict>
 	</array>
