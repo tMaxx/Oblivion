@@ -30,7 +30,6 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<!-- #191C20; #161C1E -->
 				<string>#0F1114</string>
 				<key>caret</key>
 				<string>#D3D7CF</string>
@@ -41,9 +40,9 @@ using the Tango color palette
 				<key>lineHighlight</key>
 				<string>#343D46</string>
 				<key>selection</key>
-				<string>#000000</string> <!-- #555753 -->
+				<string>#000000</string>
 				<key>gutterForeground</key>
-				<string>#64738A</string> <!-- Line numbers -->
+				<string>#64738A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -56,7 +55,7 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A0A1A0</string> <!-- alum_no4 + #222; previous:#999990 -->
+				<string>#A0A1A0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -67,7 +66,7 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#559fdc<!-- EDD400 --></string>
+				<string>#559fdc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -89,7 +88,7 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4FCC00<!--#49BC00<!-- F57900 --></string>
+				<string>#4FCC00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,26 +106,13 @@ using the Tango color palette
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>User-defined constant</string>
-			<key>scope</key>
-			<string>constant.character, constant.other</string>
-			<key>settings</key>
-			<dict>
-				<!-- <key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#204a87</string> --><!-- 5D97D9, f57900, #89A2BD -->
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DDDDDD</string> <!-- #6290C5 -->
+				<string>#DDDDDD</string>
 				<key>fontStyle</key>
 				<string></string>
 			</dict>
@@ -138,10 +124,10 @@ using the Tango color palette
 			<string>keyword</string>
 			<key>settings</key>
 			<dict>
-				<!-- <key>fontStyle</key>
-				<string>bold</string> -->
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#8AE234<!-- #FFFFFF --></string>
+				<string>#8AE234</string>
 			</dict>
 		</dict>
 		<dict>
@@ -164,10 +150,10 @@ using the Tango color palette
 			<string>storage.type</string>
 			<key>settings</key>
 			<dict>
-				<!-- <key>fontStyle</key>
-				<string>bold</string> -->
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#8AE234</string><!-- Greenish -->
+				<string>#8AE234</string>
 			</dict>
 		</dict>
 		<dict>
@@ -178,9 +164,9 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic <!-- bold --></string>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#8ae234</string><!-- was: #FFFFFF -->
+				<string>#8ae234</string>
 			</dict>
 		</dict>
 		<dict>
@@ -206,7 +192,7 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#D1D5CE</string> <!-- #A6E22E -->
+				<string>#D1D5CE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -330,22 +316,9 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string><!-- italic --></string>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library constant</string>
-			<key>scope</key>
-			<string>support.constant</string>
-			<key>settings</key>
-			<dict>
-				<!-- <key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#5D97D9</string> -->
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -358,20 +331,7 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#D1D5CE<!-- 729fcf --></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library variable</string>
-			<key>scope</key>
-			<string>support.other.variable</string>
-			<key>settings</key>
-			<dict><!--
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#729fcf</string> -->
+				<string>#D1D5CE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -518,9 +478,9 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#343D46</string><!-- prev:#A57706 -->
+				<string>#343D46</string>
 				<key>foreground</key>
-				<string>#2e3436</string><!-- prev:#E0EDDD -->
+				<string>#2e3436</string>
 			</dict>
 		</dict>
 		<dict>
@@ -648,7 +608,7 @@ using the Tango color palette
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#729fcf<!-- #268bd2 --></string>
+				<string>#729fcf</string>
 			</dict>
 		</dict>
 		<dict>
@@ -674,7 +634,7 @@ using the Tango color palette
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF<!-- 729fcf --></string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
